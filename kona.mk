@@ -175,7 +175,7 @@ PRODUCT_COPY_FILES += \
     org.ifaa.android.manager
 
 #PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#    org.ifaa.android.manager
 
 # IPACM
 PRODUCT_PACKAGES += \
@@ -356,9 +356,9 @@ PRODUCT_PACKAGES += \
     libxml2
     
 PRODUCT_PACKAGES += \
-android.hardware.radio@1.6.vendor \
-android.hardware.radio.config@1.3.vendor \
-android.hardware.radio.deprecated@1.0.vendor
+    android.hardware.radio@1.6.vendor \
+    android.hardware.radio.config@1.3.vendor \
+    android.hardware.radio.deprecated@1.0.vendor
     
 #Recovery
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/ramdisk,$(TARGET_COPY_OUT_RECOVERY)/root)
@@ -483,7 +483,7 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 #PRODUCT_BOOT_JARS += \
-    WfdCommon
+#    WfdCommon
 
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-wfd.xml
