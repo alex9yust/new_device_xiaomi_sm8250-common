@@ -112,7 +112,6 @@ ro.vendor.video_box.version=2
 # Others
 ro.config.vc_call_vol_steps=11
 persist.sys.gps.fence=true
-ro.control_privapp_permissions=enforce
 ro.incremental.enable=1
 ro.vendor.nfc.repair=1
 ro.vendor.qspm.enable=true
@@ -193,3 +192,6 @@ ro.hardware.wlan.dbs=2
 ro.hardware.wlan.mimo=1
 ro.hardware.wlan.vendor=qcom
 ro.hardware.wlan.chip=639x
+
+# privapp-permissions whitelist
+ro.control_privapp_permissions=log
